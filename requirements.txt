@@ -1,0 +1,39 @@
+Required packages:
+pip install pyqt5
+pip install open3d-python
+pip install pptk
+Pip install pandas as pd
+Pip install numpy as np
+
+Pip install scipy
+Pip install numba
+
+
+git clone https://github.com/daavoo/pyntcloud.git
+cd pyntcloud
+python setup.py develop
+
+Or
+
+Pip install git+https://github.com/daavoo/pyntcloud.git
+
+Or
+
+python -m pip install git+https://github.com/daavoo/pyntcloud
+
+
+
+Meshing libraryies
+
+pip install Cython
+
+
+pip install intel-openmp        ?
+
+python -m pip install git+git://github.com/mmolero/pypoisson.git
+
+git clone --recursive git://github.com/mmolero/pypoisson.git
+python setup.py build
+python setup.py install
+
+pip install git+https://github.com/mmolero/pypoisson.git
